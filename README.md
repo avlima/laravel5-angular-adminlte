@@ -40,7 +40,13 @@ composer install
 5 - Installing gulp and laravel-exilir in node_modules directory
 
 ```bash
-npm install && npm install gulp -g
+npm install
+```
+
+and
+
+```bash
+npm install gulp -g
 ```
 
 6 - Installing bower
@@ -48,7 +54,7 @@ npm install && npm install gulp -g
 Before you begin, make sure you already have the Bower installed, if not, use the npm that comes with nodejs to install this package manager.
 
 ```bash
-npm install –global bower
+npm install -–global bower
 ```
 
 7 - Installing all dependencies set in vendor / bower_components.
