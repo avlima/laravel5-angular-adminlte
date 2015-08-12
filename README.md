@@ -72,7 +72,13 @@ gulp -production
 9 - Start PHP Built-in web server:
 
 ```bash
-php -S 127.0.0.1:8000 -t public/ or php -S 0.0.0.0:8000 -t public/
+php -S 127.0.0.1:8000 -t public/
+```
+
+or
+
+```bash
+php -S 0.0.0.0:8000 -t public/
 ```
 
 ##Copyright and license
