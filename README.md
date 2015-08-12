@@ -1,7 +1,7 @@
 # laravel5-angular-adminlte
 A MVC skeleton on the arms of Laravel 5 + AngularJS + AngularUI Router + AdminLTE 2
 
-This skeleton use Composer, Laravel 5, AngularJS, AngularUI Router, AdminLTE 2, jQuery and Semantic-UI
+This skeleton use Composer, Laravel 5, AngularJS, AngularUI Router, AdminLTE 2 and jQuery
 
 ## Quick start
 
