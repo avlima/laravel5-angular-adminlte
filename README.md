@@ -63,13 +63,31 @@ npm install -–global bower
 bower install
 ```
 
+If you have connection problems with the installation of the bower, please correct the problem with the command below and try novament.
+
+```bash
+git config --global url."https://".insteadOf git://
+```
+
 8 - Running the elixir to copy the packages to their respective paths.
 
 ```bash
 gulp -production
 ```
 
-9 - Start PHP Built-in web server:
+9 - Generate key with artisan.
+
+```bash
+rename the file to .env.axample .env
+```
+
+and
+
+```bash
+php artisan key:generate
+```
+
+10 - Start PHP Built-in web server:
 
 ```bash
 php -S 127.0.0.1:8000 -t public/
