@@ -40,7 +40,7 @@ desired effect
 |               | sidebar-mini                            |
 |---------------------------------------------------------|
 -->
-<body class="skin-red sidebar-mini">
+<body class="skin-red sidebar-mini sidebar-collapse">
 <div class="wrapper">
 
     <!-- Main Header -->
@@ -71,6 +71,14 @@ desired effect
 <!-- Bootstrap 3.3.2 JS -->
 <script src="{{ asset ("/assets/js/bootstrap.min.js") }}"></script>
 <!-- AdminLTE App -->
+<script>
+    var AdminLTEOptions = {
+        //Enable sidebar expand on hover effect for sidebar mini
+        //This option is forced to true if both the fixed layout and sidebar mini
+        //are used together
+        sidebarExpandOnHover: true
+    };
+</script>
 <script src="{{ asset ("/assets/js/app.min.js") }}"></script>
 
 <script src="{{ asset ("/assets/js/app.js") }}"></script>
